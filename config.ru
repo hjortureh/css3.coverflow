@@ -1,3 +1,6 @@
+#
+# This file is for runnning on Heroku Bamboo Stack
+#
 use Rack::Static, 
   :urls => ["/css", "/img", "/js"],
   :root => "public"
